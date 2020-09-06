@@ -37,7 +37,7 @@ High level documentation
 	   > and also edit routes add '0.0.0.0/0 to IGW'
 	6. Now Create NAT Gateway For Private Subnet Internet.
 	   > When you create NAT Gateway It Asking for subnet and EIP.
-	     > Note Choose 'Public Subnet'.		 
+	     > Note Choose 'Public Subnet'.
 	7. Create New Route Table For Private Subnets.
 	   > In Subnet Associations add Private subnet.
 	   > and also edit routes add '0.0.0.0/0 to NAT Gateway' 
